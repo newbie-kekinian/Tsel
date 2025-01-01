@@ -29,3 +29,18 @@ proxies:
       path: /203.194.112.119-8443
       headers:
         Host: server.yudhy.net
+  - name: 9 🇮🇩 Google Cloud WS TLS [nautica]
+    server: nautica.foolvpn.me
+    port: 443
+    type: vless
+    uuid: a262e904-0bd1-4dd8-92b3-ec30fdb36171
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: nautica.foolvpn.me
+    ws-opts:
+      path: /35.219.50.99-443
+      headers:
+        Host: nautica.foolvpn.me
