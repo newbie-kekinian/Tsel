@@ -14,18 +14,3 @@ proxies:
       path: /149.129.250.187-443
       headers:
         Host: server.yudhy.net
-  - name: 6 🇮🇩 First Cagayan Converge Data Center Inc. WS TLS [server]
-    server: server.yudhy.net
-    port: 443
-    type: vless
-    uuid: e3974bfc-6431-41f6-93f1-4e24c4330b1a
-    cipher: auto
-    tls: true
-    udp: true
-    skip-cert-verify: true
-    network: ws
-    servername: server.yudhy.net
-    ws-opts:
-      path: /203.194.112.119-8443
-      headers:
-        Host: server.yudhy.net
