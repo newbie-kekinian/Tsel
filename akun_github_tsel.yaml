@@ -1,14 +1,16 @@
 proxies:
-- name: AKUN-GITNEW
-  server: vidio.xtls.my.id
-  port: 443
-  type: trojan
-  password: fbc088b5-2fb4-4542-b0ca-75a8c8fea574
-  network: ws
-  sni: nusa.lowh.site
-  skip-cert-verify: true
-  udp: true
-  ws-opts:
-    path: "/trojan"
-    headers:
-      Host: nusa.lowh.site
+  - name: 8 🇮🇩 Alibaba WS TLS [server]
+    server: server.yudhy.net
+    port: 443
+    type: vless
+    uuid: e3974bfc-6431-41f6-93f1-4e24c4330b1a
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: server.yudhy.net
+    ws-opts:
+      path: /149.129.250.187-443
+      headers:
+        Host: server.yudhy.net
