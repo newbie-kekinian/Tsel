@@ -1,39 +1,39 @@
 proxies:
-  - name: 8 🇮🇩 Alibaba WS TLS [server]
-    server: server.yudhy.net
+  - name: Pt Cloud Teknologi  (ID)
+    server: unnes.ac.id
     port: 443
     type: vless
-    uuid: e3974bfc-6431-41f6-93f1-4e24c4330b1a
+    uuid: 37f159cf-d668-4961-baca-83c5f5107237
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: server.yudhy.net
+    servername: mau.bansos.Biz.id
     ws-opts:
-      path: /149.129.250.187-443
+      path: /103.133.223.50=2096
       headers:
-        Host: server.yudhy.net
-  - name: 6 🇮🇩 First Cagayan Converge Data Center Inc. WS TLS [server]
-    server: server.yudhy.net
+        Host: mau.bansos.Biz.id
+  - name: (ID) Akamai Technologies 🇮🇩
+    server: blog.unnes.ac.id
     port: 443
     type: vless
-    uuid: e3974bfc-6431-41f6-93f1-4e24c4330b1a
+    uuid: 89737542-3fa4-4991-976f-8128303b7528
     cipher: auto
     tls: true
     udp: true
     skip-cert-verify: true
     network: ws
-    servername: server.yudhy.net
+    servername: mau.bansos.Biz.id
     ws-opts:
-      path: /203.194.112.119-8443
+      path: /172.232.239.175=587
       headers:
-        Host: server.yudhy.net
-  - name: 9 🇮🇩 Google Cloud WS TLS [nautica]
-    server: nautica.foolvpn.me
+        Host: mau.bansos.Biz.id
+  - name: 1 🇮🇩 Cloud Teknologi Nusantara WS TLS [nautica]
+    server: fikom.esaunggul.ac.id
     port: 443
     type: vless
-    uuid: a262e904-0bd1-4dd8-92b3-ec30fdb36171
+    uuid: 2982aecd-d7a8-4df6-a043-2da1e63a0b25
     cipher: auto
     tls: true
     udp: true
@@ -41,6 +41,65 @@ proxies:
     network: ws
     servername: nautica.foolvpn.me
     ws-opts:
-      path: /35.219.50.99-443
+      path: /103.133.223.52-2096
       headers:
         Host: nautica.foolvpn.me
+  - name: 4 🇮🇩 PT Pusat Media Indonesia WS TLS [nautica]
+    server: bakrie.ac.id
+    port: 443
+    type: vless
+    uuid: 0c80d320-e73c-42af-85a8-31ff41d3d8b9
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: nautica.foolvpn.me
+    ws-opts:
+      path: /103.6.207.108-8080
+      headers:
+        Host: nautica.foolvpn.me
+  - name: (ID) Pt Pusat Media 🇮🇩
+    type: vless
+    server: ummi.ac.id
+    port: 443
+    uuid: 0f6cf921-f9da-462c-8a24-c626f5a979d7
+    cipher: none
+    skip-cert-verify: true
+    servername: masbodong.us.kg
+    tls: true
+    network: ws
+    ws-opts:
+      path: /id-pusat
+      headers:
+        Host: masbodong.us.kg
+    udp: true
+  - name: 🇮🇩 PT Cloud Teknologi Nusantara
+    server: bakrie.ac.id
+    port: 443
+    type: vless
+    uuid: 3bf70991-d377-4272-bf82-8c493d72a48d
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    ws-opts:
+      path: /103.133.223.50:2096
+      headers:
+        Host: nuclear.us.kg
+  - name: 1 🇮🇩 PT Deneva WS TLS [server]
+    server: bakrie.ac.id
+    port: 443
+    type: vless
+    uuid: c31eb392-b1a5-41ba-881f-ad66d8588be3
+    cipher: auto
+    tls: true
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    servername: server.yudhy.net
+    ws-opts:
+      path: /8.218.107.145-31166
+      headers:
+        Host: server.yudhy.net
