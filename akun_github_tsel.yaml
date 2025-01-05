@@ -1,4 +1,17 @@
 proxies:
+  - name: 11 🇮🇩 Google Cloud WS TLS [nautica]
+    server: bakrie.ac.id
+    port: 443
+    type: trojan
+    password: 0789ca4c-8cbe-4b5f-aeac-ae5e4f6042a7
+    udp: true
+    skip-cert-verify: true
+    network: ws
+    sni: nautica.foolvpn.me
+    ws-opts:
+      path: /35.219.50.99-443
+      headers:
+        Host: nautica.foolvpn.me
   - name: Pt Cloud Teknologi  (ID)
     server: unnes.ac.id
     port: 443
