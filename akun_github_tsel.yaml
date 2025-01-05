@@ -1,6 +1,6 @@
 proxies:
   - name: 11 🇮🇩 Google Cloud WS TLS [nautica]
-    server: bakrie.ac.id
+    server: 104.26.5.12
     port: 443
     type: trojan
     password: 0789ca4c-8cbe-4b5f-aeac-ae5e4f6042a7
@@ -13,7 +13,7 @@ proxies:
       headers:
         Host: nautica.foolvpn.me
   - name: Pt Cloud Teknologi  (ID)
-    server: unnes.ac.id
+    server: 104.26.4.12
     port: 443
     type: vless
     uuid: 37f159cf-d668-4961-baca-83c5f5107237
@@ -28,7 +28,7 @@ proxies:
       headers:
         Host: mau.bansos.Biz.id
   - name: (ID) Akamai Technologies 🇮🇩
-    server: blog.unnes.ac.id
+    server: 172.67.71.22
     port: 443
     type: vless
     uuid: 89737542-3fa4-4991-976f-8128303b7528
