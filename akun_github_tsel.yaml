@@ -1,6 +1,6 @@
 proxies:
   - name: 11 🇮🇩 Google Cloud WS TLS [nautica]
-    server: 104.26.5.12
+    server: 104.20.7.62
     port: 443
     type: trojan
     password: 0789ca4c-8cbe-4b5f-aeac-ae5e4f6042a7
@@ -13,7 +13,7 @@ proxies:
       headers:
         Host: nautica.foolvpn.me
   - name: Pt Cloud Teknologi  (ID)
-    server: 104.26.4.12
+    server: 104.20.6.62
     port: 443
     type: vless
     uuid: 37f159cf-d668-4961-baca-83c5f5107237
@@ -28,7 +28,7 @@ proxies:
       headers:
         Host: mau.bansos.Biz.id
   - name: (ID) Akamai Technologies 🇮🇩
-    server: 172.67.71.22
+    server: 104.26.1.198
     port: 443
     type: vless
     uuid: 89737542-3fa4-4991-976f-8128303b7528
@@ -43,7 +43,7 @@ proxies:
       headers:
         Host: mau.bansos.Biz.id
   - name: 1 🇮🇩 Cloud Teknologi Nusantara WS TLS [nautica]
-    server: fikom.esaunggul.ac.id
+    server: 172.67.74.32
     port: 443
     type: vless
     uuid: 2982aecd-d7a8-4df6-a043-2da1e63a0b25
@@ -58,7 +58,7 @@ proxies:
       headers:
         Host: nautica.foolvpn.me
   - name: 4 🇮🇩 PT Pusat Media Indonesia WS TLS [nautica]
-    server: bakrie.ac.id
+    server: 104.26.0.198
     port: 443
     type: vless
     uuid: 0c80d320-e73c-42af-85a8-31ff41d3d8b9
@@ -74,7 +74,7 @@ proxies:
         Host: nautica.foolvpn.me
   - name: (ID) Pt Pusat Media 🇮🇩
     type: vless
-    server: ummi.ac.id
+    server: 104.26.6.172
     port: 443
     uuid: 0f6cf921-f9da-462c-8a24-c626f5a979d7
     cipher: none
@@ -88,7 +88,7 @@ proxies:
         Host: masbodong.us.kg
     udp: true
   - name: 🇮🇩 PT Cloud Teknologi Nusantara
-    server: bakrie.ac.id
+    server: 172.67.71.127
     port: 443
     type: vless
     uuid: 3bf70991-d377-4272-bf82-8c493d72a48d
@@ -102,7 +102,7 @@ proxies:
       headers:
         Host: nuclear.us.kg
   - name: 1 🇮🇩 PT Deneva WS TLS [server]
-    server: bakrie.ac.id
+    server: 104.26.6.172
     port: 443
     type: vless
     uuid: c31eb392-b1a5-41ba-881f-ad66d8588be3
